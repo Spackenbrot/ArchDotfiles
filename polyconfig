@@ -7,13 +7,12 @@ lback = #404347
 [bar/testo]
 inherit = bar/baba
 
-monitor = HDMI-1
+monitor = ${env:MONITOR:}
 
 tray-position = left
 
 [bar/baba]
 
-monitor = DP-3
 bottom = false
 
 background = ${colors.background}
