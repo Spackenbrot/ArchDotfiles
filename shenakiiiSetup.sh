@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings i3 nitrogen picom lxappearance pulseaudio networkmanager networkctl dmenu rofi noto-fonts noto-fonts-emoji ttf-dejavu ttf-liberation materia-gtk-theme papirus-icon-theme polybar megasync nemo numlockx xfce4-terminal firefox
+sudo pacman -S xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings i3 nitrogen picom lxappearance pulseaudio networkmanager networkctl dmenu rofi pavucontrol noto-fonts noto-fonts-emoji ttf-dejavu ttf-liberation materia-gtk-theme papirus-icon-theme polybar megasync nemo numlockx xfce4-terminal firefox
 
 cp polyconfig $HOME/.config/polybar/config.ini
 cp i3config $HOME/.config/i3/config
