@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xmonad xmonad-contrib xmobar nitrogen picom lxappearance pulseaudio networkmanager networkctl dmenu rofi pavucontrol noto-fonts noto-fonts-emoji ttf-dejavu ttf-liberation materia-gtk-theme papirus-icon-theme nemo numlockx xfce4-terminal firefox
+sudo pacman -S xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xmonad xmonad-contrib xmobar trayer pasystray nitrogen picom lxappearance pulseaudio networkmanager networkctl dmenu rofi pavucontrol noto-fonts noto-fonts-emoji ttf-dejavu ttf-liberation materia-gtk-theme papirus-icon-theme nemo numlockx xfce4-terminal firefox
 
 mkdir $HOME/.xmonad
 mkdir $HOME/.config/xmobar
