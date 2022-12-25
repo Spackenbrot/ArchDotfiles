@@ -1,0 +1,12 @@
+Config { font = "xft:Monospace:weight=bold:pixelsize=14"
+       , bgColor = "#282c34"
+       , fgColor = "white"
+       , position = Top
+       , lowerOnStart = True
+       , commands = [ Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+                      , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "{}"
+       , template = "%StdinReader% { %date% }"
+       }
