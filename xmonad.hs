@@ -273,7 +273,7 @@ myStartupHook = do
   spawnOnce "picom &"
   spawnOnce "/home/shenakiii/.screenlayout/default.sh &"
   spawnOnce "nitrogen --restore &"
-  spawnOnce "exec /usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 10 --transparent true --alpha 0 --height 25 --tint 0x292d3e &"
+  spawnOnce "exec /usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 10 --transparent true --alpha 0 --height 24 --tint 0x282c34 &"
   spawnOnce "numlockx on &"
   spawnOnce "exec /usr/bin/megasync"
   spawnOnce "exec xdg-open https://my.noip.com/dynamic-dns"
