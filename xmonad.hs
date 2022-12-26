@@ -278,6 +278,7 @@ myStartupHook = do
   spawnOnce "exec /usr/bin/megasync"
   spawnOnce "exec xdg-open https://my.noip.com/dynamic-dns"
   spawnOnce "exec xdg-open https://x10hosting.com/panel/services/22777"
+  spawnOnce "exec pasystray"
   -- spawnOnce "exec setxkbmap de &" -- in case of DE layout
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
