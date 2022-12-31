@@ -276,8 +276,8 @@ myStartupHook = do
   spawnOnce "exec /usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 10 --transparent true --alpha 0 --height 24 --tint 0x282c34 &"
   spawnOnce "numlockx on &"
   spawnOnce "exec /usr/bin/megasync"
-  spawnOnce "exec xdg-open https://my.noip.com/dynamic-dns"
-  spawnOnce "exec xdg-open https://x10hosting.com/panel/services/22777"
+  spawnOnce "exec firefox --new-tab https://my.noip.com/dynamic-dns"
+  spawnOnce "exec firefox --new-tab https://x10hosting.com/panel/services/22777"
   spawnOnce "exec pasystray"
   -- spawnOnce "exec setxkbmap de &" -- in case of DE layout
 ------------------------------------------------------------------------
